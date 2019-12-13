@@ -1,0 +1,20 @@
+class Human {
+  gender = 'male';
+  
+  printMyGender = () => {
+    console.log(this.gender);
+  }
+
+}
+
+class Person extends Human{
+    name = 'salman';
+  
+  printMyName = () => {
+    console.log(this.name);
+  }
+}
+
+const pers = new Person();
+pers.printMyName();
+pers.printMyGender();
