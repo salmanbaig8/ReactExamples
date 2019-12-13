@@ -12,6 +12,7 @@ class Person extends Human{
   constructor() {
     super();
     this.name = 'salman';
+    this.gender = 'Female';
   }
 
   printMyName() {
