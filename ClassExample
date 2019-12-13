@@ -1,0 +1,12 @@
+class Person {
+  constructor() {
+    this.name = 'salman';
+  }
+
+  printMyName() {
+    console.log(this.name);
+  }
+}
+
+const pers = new Person();
+pers.printMyName();
